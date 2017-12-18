@@ -6,11 +6,11 @@ After finishing an Android application during the academic year of 2016-2017 at 
 The data was stored in a SQL and here we will be using Machine Learning methods from scikit-learn library to visualize and classify the parking lots.
 
 ## Clustering the parkings
-After applying a Principal Component Analysis (PCA) on the data, we obtain a 2D projection of the data. Each dot is relative to a parking.
+After applying a Principal Component Analysis (PCA) on the 140-dimensional data, we obtain a 2D projection of the data. The figure 1 is obtained after applying an unsupervised learning algorithm to cluster the parkings into three groups. Each dot is relative to a parking.
 
 <figure>
   <img src='clustersParkings.png' alt="figure1">
-  <figcaption>Fig1. Mean of the peak hours for the parkings of the three clusters.</figcaption>
+  <figcaption>Fig1. Clustering.</figcaption>
 </figure>
 
 ## Analysis
@@ -18,12 +18,12 @@ After applying a Principal Component Analysis (PCA) on the data, we obtain a 2D 
 
 <figure>
   <img src='/meanhourbycluster.png' alt="figure2">
-  <figcaption>Fig1. Mean of the peak hours for the parkings of the three clusters.</figcaption>
+  <figcaption>Fig2. Mean of the peak hours for the parkings of the three clusters.</figcaption>
 </figure>
 
 <figure>
   <img src='/clustersMap.PNG' alt="figure3">
-  <figcaption>Fig1. Mean of the peak hours for the parkings of the three clusters.</figcaption>
+  <figcaption>Fig3. Map with all parkings. Each color correspond to one cluster.</figcaption>
 </figure>
 
 
